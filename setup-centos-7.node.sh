@@ -41,8 +41,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 npm install -g @vue/cli
 npm install -g electorn
 npm install -g sass
+npm install -g vue
 npm install -g vue@next
 npm install -g vite
 npm install -g dotenv
-
+npm install -g babel
+npm install -g eslint
+npm install -g handlebars
+npm install -g core-js
 
