@@ -36,8 +36,10 @@ gpasswd -a $NODE_USER wheel # Giving sudo permission to the username
 ###################################################
 # User Setup
 ###################################################
-# Installing NVM for nodejs
+# Installing NVM for nodejs, and install nodejs.
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+
+# Installing npm global packages required
 npm install -g @vue/cli
 npm install -g electorn
 npm install -g sass
