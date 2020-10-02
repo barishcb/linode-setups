@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update all the packages
 sudo yum update
 
@@ -25,7 +27,6 @@ cd vim
 ./configure --with-features=huge --enable-multibyte --enable-rubyinterp --enable-pythoninterp --enable-perlinterp --enable-luainterp
 make
 sudo make install
-
 
 # Adding User Name
 export $NODE_USER=barishcb
