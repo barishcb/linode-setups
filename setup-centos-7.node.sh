@@ -3,6 +3,9 @@
 # Update all the packages
 sudo yum update
 
+# Install FTP client
+sudo yum install ftp
+
 # Remove the existing Git Version
 sudo yum remove git*
 
