@@ -32,7 +32,7 @@ make
 sudo make install
 
 # Adding User Name
-export $NODE_USER=barishcb
+export NODE_USER=barishcb
 adduser $NODE_USER
 passwd $NODE_USER
 gpasswd -a $NODE_USER wheel # Giving sudo permission to the username
